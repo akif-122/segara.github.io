@@ -1,0 +1,54 @@
+.contact-section{
+    padding: 100px 10px;
+    background-color: var(--light-gold-color);
+}
+.contact-section .sec-heading {
+    margin-bottom: 70px;
+}
+.contact-section  .sec-heading h1{
+    color:var(--primary-blue);
+}
+.contact-section .sec-heading p{
+    font-size: 22px;
+    color: var(--primary-blue);
+}
+.contact-section .contact .form-group{
+    margin-bottom: 20px;
+}
+.contact-section .contact textarea,
+.contact-section .contact input{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid var(--dark-grey);
+    box-shadow: none;
+    outline: none;
+    color: var(--primary-blue);
+    font-size: 24px;
+    background-color: transparent;
+}
+.contact-section .contact textarea::placeholder,
+.contact-section .contact input::placeholder{
+    color: #6E8092;
+    font-size: 16px;
+}
+
+
+.contact .m-btn{
+    border-color: var(--gold-color);
+    background-color: var(--gold-color);
+    color: #fff;
+    padding: 12px 50px;
+}
+.contact .m-btn:hover{
+    background-color: var(--primary-blue);
+}
+
+.contact .c-text h6{
+    color: #6E8092;
+    font-size: 24px;
+    font-weight: 500;
+}
+.contact .c-text p{
+    color: var(--primary-blue);
+    font-size: 18px;
+}

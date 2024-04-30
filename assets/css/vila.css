@@ -1,0 +1,432 @@
+/* 
+====================================
+    HERO SECTION START
+====================================
+*/
+.vila-hero {
+    width: 100vw;
+    min-height: 100vh;
+    /* background: url("../images//vila-hero-bg.png"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.vila-hero .vila-hero-text {
+    text-align: center;
+    color: var(--white);
+}
+
+.vila-hero .vila-hero-text p {
+    font-size: 20px;
+}
+
+.vila-hero .availabliy-section {
+    position: absolute;
+    bottom: -80px;
+    width: 80%;
+    z-index: 100;
+}
+
+/* 
+====================================
+    HERO SECTION END
+====================================
+*/
+
+
+/* 
+====================================
+    FEATURES SECTION START
+====================================
+*/
+.features {
+    background-color: var(--light-gold-color);
+    padding-top: 200px;
+    padding-bottom: 350px;
+    position: relative;
+    z-index: 1;
+}
+
+.features .feature-text h4 {
+    margin-bottom: 40px;
+}
+
+.features .feature-text p {
+    font-size: 18px;
+}
+
+.logo-gram {
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+    z-index: -1;
+    width: 330;
+}
+
+@media(max-width: 991px) {
+    .features {
+        padding-bottom: 240px;
+    }
+
+    .features {
+        padding-bottom: 140px;
+    }
+}
+
+/* 
+====================================
+    FEATURES SECTION END
+====================================
+*/
+
+/* 
+====================================
+    FEATURE SLIDES SECTION START
+====================================
+*/
+.features-slides {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50%);
+    z-index: 10;
+    max-height: 500px;
+}
+
+.features-slides .slides-box {
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    /* background-color: red; */
+
+}
+
+.features-slides .slides-box img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.features-slides .owl-stage-outer {
+    overflow: visible;
+    padding: 10px 50px;
+}
+
+.features-slides .owl-item.active {
+    transform: scale(1.1);
+    z-index: 100;
+}
+
+/* .features-slides .owl-nav{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    display: block !important;
+    background-color: rgba(255,255,255,0.5);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+}
+.features-slides  .owl-nav button {
+    display: block !important;
+    margin-bottom: 20px !important;
+    background-color: none !important;
+}
+.features-slides  .owl-nav button span{
+    all: unset;
+    font-size: 50px;
+    background: transparent !important;
+
+    
+}
+.features-slides  .owl-nav button:hover span{
+    background: transparent !important;
+} */
+
+/* 
+====================================
+    FEATURE SLIDES SECTION END
+====================================
+*/
+
+/* 
+====================================
+    FACILITY SECTION START
+====================================
+*/
+.facelity-section {
+    background-color: var(--primary-blue);
+    padding-top: 500px;
+    position: relative;
+}
+
+@media (max-width: 991px) {
+    .facelity-section {
+        padding-top: 250px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .facelity-section {
+        padding-top: 150px;
+    }
+}
+
+.facelity-section .frame {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 260px;
+}
+
+.facelity-section .frame img {
+    width: 100%;
+}
+
+.fac-text p {
+    font-size: 18px;
+    color: var(--light-grey);
+    margin-bottom: 0;
+}
+
+.fac-text h2 {
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+
+.testimonial-wrap {
+    position: relative;
+}
+
+.test-slide .owl-carousel .owl-stage-outer {
+    overflow: visible;
+
+}
+
+.test-slide .f-slide img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.test-slide .f-slide p {
+    color: #fff;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.test-slide .owl-carousel .owl-nav {
+    position: absolute;
+    top: -110px;
+    right: 0%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.test-slide .owl-carousel .owl-nav button {
+    opacity: 1;
+    position: relative;
+    background-color: transparent !important;
+    margin: 1rem !important;
+}
+
+.test-slide .owl-carousel .owl-nav button span {
+    position: relative;
+    color: var(--white);
+    background: #3E576E;
+    box-shadow: 0px 5px 16px rgba(50, 92, 244, 0.1);
+    opacity: 1 !important;
+    font-size: 40px;
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: 0.4s ease-in-out;
+}
+
+.test-slide .owl-carousel .owl-nav button:hover span {
+    color: var(--wt-color);
+    background-color: var(--pr-color);
+}
+
+@media screen and (max-width: 575px) {
+
+    .fac-text {
+        margin-bottom: 80px;
+    }
+
+    .test-slide .owl-carousel .owl-nav {
+        top: -85px;
+
+    }
+    .test-slide .owl-carousel .owl-nav {
+        top: -70px;
+    }
+
+    .test-slide .owl-carousel .owl-nav button span {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+
+.fac-about-text p {
+    color: #fff;
+}
+
+.fac-about-text a.m-btn {
+    background-color: var(--gold-color);
+    border: 1px solid var(--gold-color);
+    color: #fff;
+}
+
+.fac-about-text a.m-btn:hover {
+    background-color: var(--primary-blue);
+}
+
+/* 
+====================================
+    FACILITY SECTION END
+====================================
+*/
+
+
+/* 
+====================================
+    SERVICE SECTION START
+====================================
+*/
+.service-section {
+    padding: 100px 10px;
+    padding-bottom: 0;
+}
+
+.service-section .sub-t-heading {
+    color: var(--dark-grey);
+}
+
+.service-section h2 {
+    max-width: 300px;
+    color: var(--primary-blue);
+    margin-bottom: 30px;
+}
+
+.service-section ul {
+    margin: 0;
+    padding: 0;
+}
+
+.service-section ul li {
+    border-bottom: 1px solid var(--light-grey);
+    padding-top: 15px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.service-section ul li h5 {
+    color: var(--primary-blue);
+}
+
+.service-section ul li p {
+    color: var(--primary-blue);
+}
+
+.service-section .service-img{
+    position: relative;
+}
+.service-section .service-img img{
+    width: 100%;
+}
+.service-section .service-img .rotate-img{
+    width: 160px;
+    position: absolute;
+    top: -30px;
+    right: -30px;
+}
+.service-section .service-img .rotate-img img{
+    width: 100%;
+}
+/* 
+====================================
+    SERVICE SECTION END
+====================================
+*/
+
+
+/* 
+====================================
+    EXPLORE  SECTION START
+====================================
+*/
+.explore-section {
+    transform: translateY(140px);
+}
+
+.explore-section .exp-content {
+    background-color: var(--primary-blue);
+    max-width: 90%;
+    margin: auto;
+}
+
+.explore-section .exp-content .exp-text {
+    color: #fff;
+    max-width: 400px;
+    margin: auto;
+}
+
+.explore-section .exp-content .exp-text p {
+    font-size: 18px;
+    color: var(--gold-color);
+    margin: 0;
+}
+
+.explore-section .exp-content .exp-text h5 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    margin: 15px 0;
+    line-height: 1.5;
+
+
+}
+
+.explore-section .exp-content .exp-text a.m-btn {
+    padding: 10px 30px;
+    color: var(--white);
+    background-color: var(--gold-color);
+    border: 1px solid var(--gold-color);
+    margin-bottom: 15px;
+}
+
+.explore-section .exp-content .exp-text a.m-btn:hover {
+    background-color: var(--primary-blue);
+}
+
+/* 
+====================================
+    EXPLORE  SECTION END
+====================================
+*/
+
+.footer {
+    padding-top: 200px;
+}

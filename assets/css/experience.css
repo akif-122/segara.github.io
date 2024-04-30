@@ -1,0 +1,37 @@
+/* .vila-hero{
+    background: url("../images/2h-media-Czrd55ohHD4-unsplash 1 (3).png");
+} */
+
+.g-wrap{
+    position: relative;
+    overflow: hidden;
+}
+.g-text{
+    padding: 10px 15px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+.g-wrap img{
+    width: 100%;
+    transition: .5s ease;
+}
+
+.g-wrap:hover img{
+    transform: scale(1.05);
+}
+.g-text h4{
+    font-size: 24px;
+    color: #fff;
+}
+
+.g-text p{
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer{
+    padding-top: 50px;
+}
